@@ -1,0 +1,23 @@
+.client{
+   &__item {
+      @include flex-basis(6);
+    }
+    &__link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 92px;
+      @include bordered($team-media-link-color);
+      border-radius: 4px;
+      color: $team-media-link-color;
+      fill: currentColor;
+      @include transition(border);
+      @include transition(color);
+    }
+    &__link:hover,
+    &__link:focus {
+      @include bordered();
+      color: $accent-color;
+    }
+}

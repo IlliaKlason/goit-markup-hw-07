@@ -1,0 +1,30 @@
+.subscription {
+  margin-left: 93px;
+}
+.form-subscription {
+  display: flex;
+  align-items: flex-end;
+  &__input {
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+    border-radius: 4px;
+    outline: none;
+    @include bordered(rgba(255, 255, 255, 0.3));
+    background-color: transparent;
+    font-size: 16px;
+    color: $headline-text-color;
+  }
+  &__input::placeholder {
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  &__input:focus {
+    border-color: currentColor;
+    cursor: pointer;
+  }
+
+  &__icon {
+    margin-left: 10px;
+  }
+}

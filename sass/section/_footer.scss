@@ -1,0 +1,19 @@
+.footer {
+   padding: 60px 0;
+   background-color: $secondary-bg-color;
+   &__container {
+      display: flex;
+    }
+ }
+
+ .join {
+   margin-left: 70px;
+ }
+ .sub-title {
+   margin-top: 12px;
+   margin-bottom: 20px;
+   font-size: 14px;
+   line-height: 1.14;
+   text-transform: uppercase;
+   color: $headline-text-color;
+ }

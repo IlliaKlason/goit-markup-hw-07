@@ -1,0 +1,27 @@
+.advantages{
+   &__item {
+      @include flex-basis(4);
+    }
+    
+    &__icon {
+      display: flex;
+      margin-bottom: 30px;
+      height: 120px;
+      align-items: center;
+      justify-content: center;
+      background-color: $team-bg-color;
+      border-radius: 4px;
+    }
+    
+    &__title {
+      margin-bottom: 10px;
+      font-size: 14px;
+      line-height: 1.15;
+      text-transform: uppercase;
+    }
+    &__text {
+      font-size: 14px;
+      line-height: 1.72;
+      color: $secondary-text-color;
+    }
+}

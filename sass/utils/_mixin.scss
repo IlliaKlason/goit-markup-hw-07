@@ -1,0 +1,9 @@
+@mixin transition ($name:transform) {
+   transitioN: $name 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@mixin bordered($color: $accent-color) {
+   border: 1px solid $color;
+ }
+ @mixin flex-basis($items:1) {
+   flex-basis: calc((100% - $indent * ($items - 1)) / $items);
+ }
